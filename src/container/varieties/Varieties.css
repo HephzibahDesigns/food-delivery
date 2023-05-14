@@ -1,0 +1,29 @@
+.app__varieties {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__varieties-explore {
+  position: absolute;
+  margin-top: 50rem;
+  margin-left: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__varieties-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.app__varieties-content img {
+  width: 548px;
+  height: 740px;
+
+  filter: drop-shadow(50px 30px 150px rgba(26, 4, 4, 0.21));
+}

@@ -1,0 +1,38 @@
+.app__checkout {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__checkout-payment {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__checkout-payment-image img {
+  width: 548px;
+  height: 740px;
+
+  filter: drop-shadow(50px 30px 150px rgba(26, 4, 4, 0.21));
+}
+
+.app__checkout-payment-image {
+  margin-top: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__checkout-payment-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.app__checkout-payment-details h1 {
+  margin: 1rem 0;
+}

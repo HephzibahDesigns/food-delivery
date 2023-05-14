@@ -1,0 +1,20 @@
+.app__navbar {
+  width: 100%;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app__navbar-logo img {
+  width: 100px;
+}
+
+.app__navbar-links {
+  display: flex;
+  list-style: none;
+}
+
+.app__navbar-links li {
+  margin: 0 2rem;
+}

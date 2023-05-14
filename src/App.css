@@ -1,38 +1,67 @@
-.App {
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.a__mont {
+  font-family: var(--font-mon);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
   text-align: center;
+  letter-spacing: 0.2px;
+  color: var(---color-midnight);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.a__mont:hover {
+  color: var(--color-vermilion);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.active {
+  color: var(--color-vermilion);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.h2__mont {
+  font-family: var(--font-mon);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+
+  color: var(--color-midnight);
 }
 
-.App-link {
-  color: #61dafb;
+.p__mont {
+  font-family: var(--font-mon);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: var(--color-vermilion);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.p__mont1 {
+  font-family: var(--font-mon);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: var(--color-gray);
+
+  width: 467px;
+  height: 76px;
 }
+
+/* .h1__pop {
+  font-family: var(--font-pop);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  color: var(--color-white);
+} */
