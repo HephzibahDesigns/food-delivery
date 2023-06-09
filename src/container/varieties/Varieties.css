@@ -12,6 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .app__varieties-details {
@@ -26,4 +27,27 @@
   height: 740px;
 
   filter: drop-shadow(50px 30px 150px rgba(26, 4, 4, 0.21));
+}
+
+@media screen and (max-width: 768px) {
+  .app__varieties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app__varieties-explore {
+    top: 150%;
+    margin-left: 1rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app__varieties-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

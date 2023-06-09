@@ -5,7 +5,7 @@ import foodApp from "../../Food Asset/Food.png";
 
 const Header = () => {
   return (
-    <div className="app__header">
+    <div className="app__header" id="home">
       <div className="app__header-img">
         <img src={foodHeader} alt="header" />
       </div>

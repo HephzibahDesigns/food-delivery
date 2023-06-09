@@ -4,7 +4,7 @@ import Hero from "../../Food Asset/Hero.png";
 
 const Download = () => {
   return (
-    <div className="app__download">
+    <div className="app__download" id="contact">
       <div className="app__download-image">
         <img src={Hero} alt="app on playstore" />
 

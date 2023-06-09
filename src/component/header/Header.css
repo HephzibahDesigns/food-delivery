@@ -117,3 +117,181 @@
 
   filter: drop-shadow(50px 30px 150px rgba(26, 4, 4, 0.21));
 }
+
+@media screen and (max-width: 1150px) {
+  .h3__mont {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .h1__pop {
+    font-size: 48px;
+    line-height: 70px;
+
+    width: 800px;
+    height: 140px;
+  }
+
+  .h__mont {
+    font-size: 24px;
+    line-height: 38px;
+  }
+
+  .btn-red {
+    font-size: 22px;
+    line-height: 34px;
+
+    cursor: pointer;
+  }
+
+  .btn-white {
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .app__FoodImg img {
+    width: 448px;
+    height: 640px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .h3__mont {
+    font-size: 20px;
+    line-height: 32px;
+  }
+  .h1__pop {
+    font-size: 40px;
+    line-height: 60px;
+
+    width: 620px;
+    height: 130px;
+  }
+
+  .h__mont {
+    font-size: 21px;
+    line-height: 35px;
+  }
+
+  .btn-red {
+    font-size: 20px;
+    line-height: 30px;
+
+    cursor: pointer;
+  }
+
+  .btn-white {
+    font-size: 20px;
+    line-height: 30px;
+
+    cursor: pointer;
+  }
+
+  .app__FoodImg img {
+    width: 445px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .h3__mont {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .h1__pop {
+    font-size: 30px;
+    line-height: 50px;
+
+    width: 500px;
+    height: 100px;
+  }
+
+  .h__mont {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .btn-red {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 1rem 3rem;
+    cursor: pointer;
+  }
+
+  .btn-white {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 1rem 3rem;
+    cursor: pointer;
+  }
+
+  .app__FoodImg img {
+    width: 445px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .app__header-content {
+    margin-top: 2rem;
+  }
+
+  .app__header-img img {
+    display: none;
+  }
+
+  .app__header-content {
+    margin-top: 11rem;
+  }
+  .app__header-content-btn {
+    flex-direction: column;
+  }
+
+  .app__header-content-btn .btn-white {
+    margin-top: 1rem;
+  }
+
+  .h3__mont {
+    font-size: 15px;
+    line-height: 20px;
+
+    color: #737373;
+  }
+
+  .h1__pop {
+    font-size: 20px;
+    line-height: 30px;
+    color: #252b42;
+
+    width: 291px;
+    height: 130px;
+  }
+
+  .h__mont {
+    font-size: 15px;
+    line-height: 25px;
+    color: #737373;
+  }
+
+  .btn-red {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+  }
+
+  .btn-white {
+    font-size: 20px;
+    line-height: 20px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+
+    color: var(--color-vermilion);
+    border: 1px solid var(--color-vermilion);
+  }
+
+  .app__FoodImg img {
+    margin-top: 5rem;
+    width: 300px;
+    height: 400px;
+  }
+}
